@@ -24,4 +24,10 @@ export const GlobalStyles = createGlobalStyle`
         color: inherit;
     }
 
+    body{
+        font-family: sans-serif;
+        margin: 0;
+        background-color: #333;
+    }
+
 `;

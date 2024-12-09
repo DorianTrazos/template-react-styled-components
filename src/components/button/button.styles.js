@@ -1,18 +1,16 @@
 import styled from 'styled-components';
 
 const StyledButton = styled.button`
-	background-color: ${({ color }) => color};
-	color: white;
-	border: none;
-	padding: 0.5rem;
+	font-size: ${({ $fontSize }) => $fontSize};
+	background-color: ${({ $colorButton }) => $colorButton};
 
 	@media screen and (width>768px) {
-		display: block;
+		background-color: #fff;
 	}
 
 	@media (hover: hover) {
 		&:hover {
-			scale: 0.8;
+			background-color: red;
 		}
 	}
 `;

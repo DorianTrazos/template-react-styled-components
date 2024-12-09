@@ -5,9 +5,15 @@ const App = () => {
 	return (
 		<div>
 			<GlobalStyles />
-			<h1>Curso de React</h1>
-			<Button color='steelblue'>Click Me!</Button>
-			<Button color='#f0f'>Click Me!</Button>
+			<Button color='red' fontSize='20px'>
+				Click Me Red!
+			</Button>
+			<Button color='blue' fontSize='30px'>
+				Click Me Blue!
+			</Button>
+			<Button color='green' fontSize='10px'>
+				Click Me Blue!
+			</Button>
 		</div>
 	);
 };
